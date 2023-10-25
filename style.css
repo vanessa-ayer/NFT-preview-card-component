@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: hsl(216, 50%, 16%);
+  padding: 18px;
+  border-radius: 17px;
+  margin: 0 1em;
+}
+
+.img-top {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-top img {
+  width: 100%;
+  display: block;
+}
+
+.img-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(178, 100%, 50%, 0.3);
+  display: none;
+}
+
+.img-cover img {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-top:hover .img-cover {
+  display: block;
+}
+
+.card-text a {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.card-text a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 13.8px;
+  font-weight: 300;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.eth,
+.days {
+  display: flex;
+  align-items: center;
+}
+
+.eth p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  padding-left: 7px;
+}
+
+.days p {
+  padding-left: 7px;
+}
+
+hr {
+  border-color: hsl(215, 51%, 70%);
+}
+
+.artist {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.artist img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 100%);
+  margin-right: 15px;
+}
+
+.artist a {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.artist a:hover {
+  color: hsl(178, 100%, 50%);
+}
