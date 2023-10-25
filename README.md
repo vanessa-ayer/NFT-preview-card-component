@@ -75,5 +75,5 @@ I want to continue focusing on advanced CSS - including Flexbox and CSS Grid. Th
 
 ## Author
 
-- Website - [Vanessa Ayer](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vanessa-ayer)
+- Website - [Vanessa Ayer] https://github.com/vanessa-ayer
+- Frontend Mentor - [vanessa-ayer](https://www.frontendmentor.io/profile/vanessa-ayer)
